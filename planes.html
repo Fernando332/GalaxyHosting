@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes de Hosting - GalaxyHost</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="galaxy">Galaxy</span><span class="host">Host</span>
+                </a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="planes.html" class="active">Planes</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="login.html" class="btn btn-login">Iniciar Sesión</a>
+                <a href="registro.html" class="btn btn-register">Registrarse</a>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Nuestros <span class="highlight">Planes</span></h1>
+            <p>Encuentra la solución perfecta para tu proyecto con nuestros planes flexibles y escalables.</p>
+        </div>
+    </section>
+
+    <section class="plans-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-target="discord">Discord Bots</button>
+                <button class="tab-btn" data-target="minecraft">Minecraft</button>
+                <button class="tab-btn" data-target="web">Web Hosting</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="discord" class="pricing-section active">
+        <div class="container">
+            <div class="section-header">
+                <h2>Planes para <span class="highlight">Discord Bots</span></h2>
+                <p>Aloja tus bots de Discord con recursos dedicados y alta disponibilidad para mantenerlos en línea 24/7.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Básico</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">4.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 1GB RAM</li>
+                            <li><i class="fas fa-check"></i> 1 vCPU Core</li>
+                            <li><i class="fas fa-check"></i> 10GB SSD</li>
+                            <li><i class="fas fa-check"></i> 1 Bot</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                            <li><i class="fas fa-times"></i> Backups automáticos</li>
+                            <li><i class="fas fa-times"></i> Protección DDoS</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Popular</div>
+                    <div class="pricing-header">
+                        <h3>Estándar</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">9.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 2GB RAM</li>
+                            <li><i class="fas fa-check"></i> 2 vCPU Cores</li>
+                            <li><i class="fas fa-check"></i> 20GB SSD</li>
+                            <li><i class="fas fa-check"></i> 3 Bots</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                            <li><i class="fas fa-check"></i> Backups automáticos</li>
+                            <li><i class="fas fa-check"></i> Protección DDoS</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">19.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 4GB RAM</li>
+                            <li><i class="fas fa-check"></i> 4 vCPU Cores</li>
+                            <li><i class="fas fa-check"></i> 50GB SSD</li>
+                            <li><i class="fas fa-check"></i> 10 Bots</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario 24/7</li>
+                            <li><i class="fas fa-check"></i> Backups automáticos diarios</li>
+                            <li><i class="fas fa-check"></i> Protección DDoS avanzada</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="minecraft" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Servidores de <span class="highlight">Minecraft</span></h2>
+                <p>Servidores optimizados para Minecraft con panel de control intuitivo y mods preinstalados.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Básico</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">7.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 2GB RAM</li>
+                            <li><i class="fas fa-check"></i> 1 vCPU Core</li>
+                            <li><i class="fas fa-check"></i> 20GB SSD</li>
+                            <li><i class="fas fa-check"></i> 20 Jugadores</li>
+                            <li><i class="fas fa-check"></i> Panel de control</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                            <li><i class="fas fa-times"></i> Dominio gratuito</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Popular</div>
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">12.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 4GB RAM</li>
+                            <li><i class="fas fa-check"></i> 2 vCPU Cores</li>
+                            <li><i class="fas fa-check"></i> 50GB SSD</li>
+                            <li><i class="fas fa-check"></i> 50 Jugadores</li>
+                            <li><i class="fas fa-check"></i> Panel de control</li>
+                            <li><i class="fas fa-check"></i> Mods preinstalados</li>
+                            <li><i class="fas fa-check"></i> Dominio gratuito</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Ultimate</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">24.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 8GB RAM</li>
+                            <li><i class="fas fa-check"></i> 4 vCPU Cores</li>
+                            <li><i class="fas fa-check"></i> 100GB SSD</li>
+                            <li><i class="fas fa-check"></i> 100 Jugadores</li>
+                            <li><i class="fas fa-check"></i> Panel de control avanzado</li>
+                            <li><i class="fas fa-check"></i> Mods y plugins ilimitados</li>
+                            <li><i class="fas fa-check"></i> Dominio gratuito</li>
+                            <li><i class="fas fa-check"></i> Backups diarios</li>
+                            <li><i class="fas fa-check"></i> Soporte VIP</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="web" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Hosting <span class="highlight">Web</span></h2>
+                <p>Alojamiento web rápido y confiable con dominio gratuito, bases de datos ilimitadas y soporte para PHP, Node.js y más.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Personal</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">4.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 10GB SSD</li>
+                            <li><i class="fas fa-check"></i> 1GB RAM</li>
+                            <li><i class="fas fa-check"></i> 1 Sitio web</li>
+                            <li><i class="fas fa-check"></i> 5 Bases de datos</li>
+                            <li><i class="fas fa-check"></i> SSL Gratuito</li>
+                            <li><i class="fas fa-times"></i> Dominio gratuito</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Popular</div>
+                    <div class="pricing-header">
+                        <h3>Empresarial</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">9.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 20GB SSD</li>
+                            <li><i class="fas fa-check"></i> 2GB RAM</li>
+                            <li><i class="fas fa-check"></i> Sitios web ilimitados</li>
+                            <li><i class="fas fa-check"></i> 10 Bases de datos</li>
+                            <li><i class="fas fa-check"></i> SSL Gratuito</li>
+                            <li><i class="fas fa-check"></i> Dominio gratuito</li>
+                            <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Premium</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">19.99</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> 50GB SSD</li>
+                            <li><i class="fas fa-check"></i> 4GB RAM</li>
+                            <li><i class="fas fa-check"></i> Sitios web ilimitados</li>
+                            <li><i class="fas fa-check"></i> Bases de datos ilimitadas</li>
+                            <li><i class="fas fa-check"></i> SSL Gratuito</li>
+                            <li><i class="fas fa-check"></i> Dominio gratuito</li>
+                            <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                            <li><i class="fas fa-check"></i> Backups diarios</li>
+                        </ul>
+                    </div>
+                    <div class="pricing-footer">
+                        <a href="registro.html" class="btn btn-primary">Elegir Plan</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Preguntas <span class="highlight">Frecuentes</span></h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo funciona el período de prueba?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ofrecemos un período de prueba de 7 días para todos nuestros planes. Durante este tiempo, puedes probar todas las características sin compromiso. Si no estás satisfecho, puedes cancelar en cualquier momento sin cargo.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Puedo cambiar de plan en cualquier momento?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, puedes actualizar o degradar tu plan en cualquier momento desde tu panel de control. Los cambios se aplicarán inmediatamente y se ajustará el costo prorrateado.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Qué métodos de pago aceptan?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Aceptamos tarjetas de crédito/débito (Visa, MasterCard, American Express), PayPal, y transferencias bancarias para pagos anuales.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Ofrecen soporte técnico?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Sí, ofrecemos soporte técnico 24/7 a través de tickets, chat en vivo y correo electrónico. Los planes premium tienen acceso a soporte telefónico prioritario.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cuál es su política de reembolso?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ofrecemos una garantía de devolución de dinero de 30 días. Si no estás satisfecho con nuestros servicios, puedes solicitar un reembolso completo dentro de los primeros 30 días.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>¿Cómo funciona el dominio gratuito?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Los planes que incluyen dominio gratuito te permiten registrar un nuevo dominio .com, .net, .org, .info o .xyz sin costo adicional durante el primer año. Después del primer año, se aplicará la tarifa estándar de renovación.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿No encuentras el plan perfecto para ti?</h2>
+                <p>Contáctanos para obtener un plan personalizado que se adapte a tus necesidades específicas.</p>
+                <a href="contacto.html" class="btn btn-cta">Contactar Ahora</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span class="galaxy">Galaxy</span><span class="host">Host</span>
+                    </div>
+                    <p>Ofrecemos soluciones de hosting de alta calidad para Discord Bots, Minecraft y sitios web con un rendimiento excepcional y soporte técnico 24/7.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Enlaces Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="planes.html">Planes</a></li>
+                        <li><a href="soporte.html">Soporte</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="planes.html#discord">Discord Bots</a></li>
+                        <li><a href="planes.html#minecraft">Servidores Minecraft</a></li>
+                        <li><a href="planes.html#web">Hosting Web</a></li>
+                        <li><a href="planes.html#vps">VPS</a></li>
+                        <li><a href="planes.html#dedicados">Servidores Dedicados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contacto</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> soporte@galaxyhost.com</li>
+                        <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Calle Principal 123, Ciudad</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 GalaxyHost. Todos los derechos reservados.</p>
+                <div class="footer-bottom-links">
+                    <a href="terminos.html">Términos de Servicio</a>
+                    <a href="privacidad.html">Política de Privacidad</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
